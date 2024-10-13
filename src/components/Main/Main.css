@@ -170,6 +170,14 @@
 }
 
 @media (max-width:600px) {
+    .main .greet{
+        margin: 0;
+        font-size: 56px;
+        color: #c4c7c5;
+        font-weight: 500;
+        padding: 20px;   
+    }
+
     .main-bottom input {
         flex: none;
         width: 150px;
