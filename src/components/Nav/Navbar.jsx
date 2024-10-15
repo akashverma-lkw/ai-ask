@@ -8,20 +8,33 @@ import { GoPlus } from "react-icons/go";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="left">
-        <span className='icon'><FaBrain /> </span>
+    <>
+
+      {/* Responsive Div Starts */}
+      <div className="resDiv">
+        <div className='icon'><FaBrain /></div>
         <p>Erica</p>
+        <div className="search">
+          <p><GoPlus />New Chat</p>
+        </div>
       </div>
-      <div className="search">
-        <p><GoPlus />New Chat</p>
+      {/* Responsive Div Ends */}
+
+      <div className="navbar">
+        <div className="left">
+          <span className='icon'><FaBrain /> </span>
+          <p>Erica</p>
+        </div>
+        <div className="search">
+          <p><GoPlus />New Chat</p>
+        </div>
+        <div className="right">
+          <p><IoMdHelpCircleOutline /> Help</p>
+          <p><MdMoreTime /> Activity</p>
+          <p><IoSettingsOutline /> Help</p>
+        </div>
       </div>
-      <div className="right">
-        <p><IoMdHelpCircleOutline /> Help</p>
-        <p><MdMoreTime /> Activity</p>
-        <p><IoSettingsOutline /> Help</p>
-      </div>
-    </div>
+    </>
   )
 }
 

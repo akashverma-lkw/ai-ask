@@ -42,6 +42,7 @@ const Main = () => {
               {/* <img src={assets.user_icon} alt="" /> */}
               <img src={avtImg} alt="" />
               <p>Hi, Erica here ...</p>
+              {/* <p>{recentPrompt}</p> */}
             </div>
             <div className="result-data">
               {/* <img src={assets.gemini_icon} alt="" /> */}
